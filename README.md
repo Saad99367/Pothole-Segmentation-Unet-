@@ -147,7 +147,15 @@ Press **Q** or **Esc** to close the OpenCV window. Webcam/video processing speed
 
 The uploaded training notebook contains a **ResNet101** model definition, while the included inference scripts inspect the checkpoint to determine its actual encoder. **The architecture in the checkpoint must match the instantiated model**; changing the encoder name alone does not convert a trained model. The checkpoint may be a plain `state_dict` or a dictionary containing `model_state_dict`.
 
-If your checkpoint was trained with **only `/255` normalization**, you must change inference preprocessing to match. Incorrect normalization can reduce segmentation quality.
+If your checkpoint was trained with **only `/255` normalization**, you must change inference preprocessing to match. Incorrect normalization can reduce segmentation quality. 
+
+## Example predictions
+
+### Prediction 1
+![RoadGuard AI inference prediction 1](pred1.png)
+
+### Prediction 2
+![RoadGuard AI inference prediction 2](pred2.png)
 
 ## Training notebook
 
