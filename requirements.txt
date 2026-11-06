@@ -1,0 +1,8 @@
+# RoadGuard AI — local Streamlit app and OpenCV video inference
+streamlit>=1.35,<2
+numpy>=1.26,<3
+Pillow>=10,<13
+opencv-python>=4.8,<5
+torch>=2.2
+torchvision>=0.17
+segmentation-models-pytorch>=0.3.4,<1
